@@ -19,3 +19,18 @@ next(tn_gen) -> 10
 next(tn_gen) -> 15
 next(tn_gen) -> 21
 """
+
+
+def triangular_numbers():
+    for n in range(1, 10):
+        yield 1 / 2 * n * (n + 1)
+
+
+triangle = triangular_numbers()
+print(next(triangle))
+print(next(triangle))
+print(next(triangle))
+print(next(triangle))
+print(next(triangle))
+print(next(triangle))
+print(next(triangle))
