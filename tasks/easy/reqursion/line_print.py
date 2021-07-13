@@ -20,3 +20,13 @@ line_print(some_list)
     3
 8
 """
+def line_print(some_list):
+    if some_list == list:
+        return some_list
+    if isinstance(some_list[0], list):
+        return some_list
+
+some_list = [1, 2, [1, 2, [5, 7], 3], 8]
+
+print("\t" * line_print(some_list))
+

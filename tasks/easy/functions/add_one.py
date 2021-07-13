@@ -13,3 +13,13 @@ add_two(3)  # 5
 add_three = add_numb(3)
 add_three(3) # 6
 """
+
+
+def number(x):
+    def add_numb(y):
+        return x + y
+    return add_numb
+
+
+first = number(5)
+print(first(9))
