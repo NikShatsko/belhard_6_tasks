@@ -7,5 +7,12 @@
 SOME_DICT = {str(val): val for val in range(1, 50, 3)}
 
 
-def muiltiply_dict_values(SOME_DICT):
-    result = list(map())
+def muiltiply_dict_values(some_dict):
+    result = 1
+    for i in some_dict:
+        if i == int():
+            result = result * some_dict[i]
+            return result
+
+
+print(muiltiply_dict_values(SOME_DICT))
