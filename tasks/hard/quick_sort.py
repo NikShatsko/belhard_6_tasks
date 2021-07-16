@@ -60,3 +60,8 @@ def quick_sort(nums):
             _quick_sort(items, split_index + 1, high)
 
     _quick_sort(nums, 0, len(nums) - 1)
+
+
+some_list = [3, 4, 6, 2, 1, 5]
+quick_sort(some_list)
+print(some_list)

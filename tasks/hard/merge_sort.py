@@ -79,3 +79,7 @@ def merge_sort(nums):
 
     # Объединяем отсортированные списки в результирующий
     return merge(left_list, right_list)
+
+
+some_list = [4, 3, 8, 19, 1, 0, 10]
+print(merge_sort(some_list))
